@@ -730,6 +730,13 @@ func withNoopStats() StartOption {
 	}
 }
 
+// WithStatsDisabled disables the statsd client
+func WithStatsDisabled() StartOption {
+	return func(c *config) {
+		c.statsdClient = &statsd.NoOpClient{}
+	}
+}
+
 // WithFeatureFlags specifies a set of feature flags to enable. Please take into account
 // that most, if not all features flags are considered to be experimental and result in
 // unexpected bugs.
