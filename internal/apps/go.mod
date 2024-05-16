@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	golang.org/x/sync v0.3.0
-	gopkg.in/DataDog/dd-trace-go.v1 v1.49.0
+	github.com/basgys/dd-trace-go v1.49.0
 )
 
 require (
@@ -50,4 +50,4 @@ require (
 )
 
 // use local version of dd-trace-go
-replace gopkg.in/DataDog/dd-trace-go.v1 => ../..
+replace github.com/basgys/dd-trace-go => ../..

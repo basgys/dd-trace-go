@@ -9,10 +9,10 @@ import (
 	"math"
 	"net/http"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/normalizer"
+	"github.com/basgys/dd-trace-go/internal"
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
+	"github.com/basgys/dd-trace-go/internal/namingschema"
+	"github.com/basgys/dd-trace-go/internal/normalizer"
 
 	"github.com/gin-gonic/gin"
 )

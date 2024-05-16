@@ -9,9 +9,9 @@ import (
 	"log"
 	"net/http"
 
+	ddgraphql "github.com/basgys/dd-trace-go/contrib/graphql-go/graphql"
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/handler"
-	ddgraphql "gopkg.in/DataDog/dd-trace-go.v1/contrib/graphql-go/graphql"
 )
 
 func Example() {

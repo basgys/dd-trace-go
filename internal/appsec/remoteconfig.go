@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"os"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/remoteconfig"
+	"github.com/basgys/dd-trace-go/internal/appsec/config"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/remoteconfig"
 
 	internal "github.com/DataDog/appsec-internal-go/appsec"
 	rc "github.com/DataDog/datadog-agent/pkg/remoteconfig/state"

@@ -5,7 +5,7 @@
 
 package namingschematest
 
-import "gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
+import "github.com/basgys/dd-trace-go/internal/namingschema"
 
 type config struct {
 	wantServiceName map[namingschema.Version]ServiceNameAssertions

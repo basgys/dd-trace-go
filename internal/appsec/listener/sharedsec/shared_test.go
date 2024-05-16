@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	waf "github.com/DataDog/go-libddwaf/v2"
+	"github.com/basgys/dd-trace-go/internal/appsec/trace"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
 )
 
 const (

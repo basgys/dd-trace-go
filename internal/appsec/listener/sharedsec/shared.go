@@ -11,10 +11,10 @@ import (
 
 	"github.com/DataDog/appsec-internal-go/limiter"
 	waf "github.com/DataDog/go-libddwaf/v2"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/sharedsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/sharedsec"
+	"github.com/basgys/dd-trace-go/internal/appsec/trace"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 func RunWAF(wafCtx *waf.Context, values waf.RunAddressData, timeout time.Duration) waf.Result {

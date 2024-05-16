@@ -6,8 +6,8 @@
 package httpsec
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener/httpsec"
+	"github.com/basgys/dd-trace-go/internal/appsec"
+	"github.com/basgys/dd-trace-go/internal/appsec/listener/httpsec"
 )
 
 func init() {

@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/internal"
+	"github.com/basgys/dd-trace-go/internal/samplernames"
 
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/time/rate"

@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/metadata"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace/httptrace"
+	"github.com/basgys/dd-trace-go/internal/appsec/trace/httptrace"
 )
 
 func TestClientIP(t *testing.T) {

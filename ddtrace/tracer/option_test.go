@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/traceprof"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
+	"github.com/basgys/dd-trace-go/internal/namingschema"
+	"github.com/basgys/dd-trace-go/internal/traceprof"
+	"github.com/basgys/dd-trace-go/internal/version"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

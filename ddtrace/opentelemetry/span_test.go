@@ -17,10 +17,10 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/httpmem"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/internal/httpmem"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tinylib/msgp/msgp"

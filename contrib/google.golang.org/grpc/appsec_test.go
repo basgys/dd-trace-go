@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	pappsec "gopkg.in/DataDog/dd-trace-go.v1/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
+	pappsec "github.com/basgys/dd-trace-go/appsec"
+	"github.com/basgys/dd-trace-go/ddtrace/mocktracer"
+	"github.com/basgys/dd-trace-go/internal/appsec"
 
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"

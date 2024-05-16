@@ -15,12 +15,12 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	sharedinternal "gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/traceprof"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/internal"
+	sharedinternal "github.com/basgys/dd-trace-go/internal"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/samplernames"
+	"github.com/basgys/dd-trace-go/internal/traceprof"
 
 	"github.com/DataDog/datadog-agent/pkg/obfuscate"
 	"github.com/stretchr/testify/assert"

@@ -17,7 +17,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
 
 	"github.com/stretchr/testify/require"
 )

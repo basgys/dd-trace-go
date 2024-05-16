@@ -4,7 +4,7 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package aws provides functions to trace aws/aws-sdk-go (https://github.com/aws/aws-sdk-go).
-package aws // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/aws-sdk-go/aws"
+package aws // import "github.com/basgys/dd-trace-go/contrib/aws/aws-sdk-go/aws"
 
 import (
 	"errors"
@@ -13,13 +13,13 @@ import (
 	"strconv"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/internal/tags"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/basgys/dd-trace-go/contrib/aws/internal/tags"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/namingschema"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
 
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/aws/session"
@@ -41,9 +41,9 @@ func init() {
 
 const (
 	// SendHandlerName is the name of the Datadog NamedHandler for the Send phase of an awsv1 request
-	SendHandlerName = "gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/aws-sdk-go/aws/handlers.Send"
+	SendHandlerName = "github.com/basgys/dd-trace-go/contrib/aws/aws-sdk-go/aws/handlers.Send"
 	// CompleteHandlerName is the name of the Datadog NamedHandler for the Complete phase of an awsv1 request
-	CompleteHandlerName = "gopkg.in/DataDog/dd-trace-go.v1/contrib/aws/aws-sdk-go/aws/handlers.Complete"
+	CompleteHandlerName = "github.com/basgys/dd-trace-go/contrib/aws/aws-sdk-go/aws/handlers.Complete"
 )
 
 type handlers struct {

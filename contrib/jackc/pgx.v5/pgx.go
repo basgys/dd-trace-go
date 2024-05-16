@@ -7,8 +7,9 @@ package pgx
 
 import (
 	"context"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
 
 	"github.com/jackc/pgx/v5"
 )

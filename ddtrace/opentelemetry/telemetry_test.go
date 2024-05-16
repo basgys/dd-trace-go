@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
+	"github.com/basgys/dd-trace-go/internal/telemetry/telemetrytest"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,9 +6,9 @@
 package testlib
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/internal/samplernames"
 )
 
 type MockSpan struct {

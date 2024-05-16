@@ -8,8 +8,8 @@ package graphqlsec
 import (
 	"context"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 type typed[T dyngo.Operation] struct{}

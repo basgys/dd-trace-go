@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/samplernames"
 )
 
 // SQLCommentInjectionMode represents the mode of SQL comment injection.

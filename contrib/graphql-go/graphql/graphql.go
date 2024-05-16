@@ -3,7 +3,7 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package graphql // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/graph-go/graphql"
+package graphql // import "github.com/basgys/dd-trace-go/contrib/graph-go/graphql"
 
 import (
 	"context"
@@ -11,12 +11,12 @@ import (
 	"math"
 	"reflect"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/graphqlsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/graphqlsec/types"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/graphqlsec"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/graphqlsec/types"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
 
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/graphql/gqlerrors"

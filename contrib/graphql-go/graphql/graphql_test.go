@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/mocktracer"
 
 	"github.com/graphql-go/graphql"
 	"github.com/stretchr/testify/assert"

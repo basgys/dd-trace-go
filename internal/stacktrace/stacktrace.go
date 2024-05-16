@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"runtime"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal/log"
 
 	"github.com/hashicorp/go-secure-stdlib/parseutil"
 )
@@ -87,8 +87,8 @@ type symbol struct {
 var symbolRegex = regexp.MustCompile(`^(([^(]+/)?([^(/.]+)?)(\.\(([^/)]+)\))?\.([^/()]+)$`)
 
 // parseSymbol parses a symbol name into its package, receiver and function
-// ex: gopkg.in/DataDog/dd-trace-go.v1/internal/stacktrace.(*Event).NewException
-// -> package: gopkg.in/DataDog/dd-trace-go.v1/internal/stacktrace
+// ex: github.com/basgys/dd-trace-go/internal/stacktrace.(*Event).NewException
+// -> package: github.com/basgys/dd-trace-go/internal/stacktrace
 // -> receiver: *Event
 // -> function: NewException
 func parseSymbol(name string) symbol {

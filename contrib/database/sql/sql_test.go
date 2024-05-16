@@ -17,12 +17,12 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/namingschematest"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/sqltest"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/statsdtest"
+	"github.com/basgys/dd-trace-go/contrib/internal/namingschematest"
+	"github.com/basgys/dd-trace-go/contrib/internal/sqltest"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/mocktracer"
+	"github.com/basgys/dd-trace-go/internal"
+	"github.com/basgys/dd-trace-go/internal/statsdtest"
 
 	mssql "github.com/denisenkom/go-mssqldb"
 	"github.com/go-sql-driver/mysql"

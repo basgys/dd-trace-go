@@ -9,7 +9,7 @@ import (
 	"context"
 	"log"
 
-	pgxtrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/jackc/pgx.v5"
+	pgxtrace "github.com/basgys/dd-trace-go/contrib/jackc/pgx.v5"
 
 	"github.com/jackc/pgx/v5"
 )

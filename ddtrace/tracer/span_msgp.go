@@ -5,7 +5,7 @@ package tracer
 import (
 	"github.com/tinylib/msgp/msgp"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace"
 )
 
 // DecodeMsg implements msgp.Decodable

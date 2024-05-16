@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/statsdtest"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/statsdtest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/http"
 
-	webtrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/zenazn/goji.v1/web"
+	webtrace "github.com/basgys/dd-trace-go/contrib/zenazn/goji.v1/web"
 
 	"github.com/zenazn/goji"
 	"github.com/zenazn/goji/web"

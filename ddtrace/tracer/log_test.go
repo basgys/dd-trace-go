@@ -10,9 +10,9 @@ import (
 	"math"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

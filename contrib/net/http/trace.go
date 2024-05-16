@@ -3,21 +3,21 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package http // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
+package http // import "github.com/basgys/dd-trace-go/contrib/net/http"
 
 //go:generate sh -c "go run make_responsewriter.go | gofmt > trace_gen.go"
 
 import (
 	"net/http"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/options"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/httpsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/basgys/dd-trace-go/contrib/internal/httptrace"
+	"github.com/basgys/dd-trace-go/contrib/internal/options"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/internal/appsec"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/httpsec"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
 )
 
 const componentName = "net/http"

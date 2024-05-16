@@ -15,7 +15,7 @@ import (
 	"runtime"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
+	"github.com/basgys/dd-trace-go/internal"
 
 	"github.com/tinylib/msgp/msgp"
 )

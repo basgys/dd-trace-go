@@ -3,15 +3,15 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package internal // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql/internal"
+package internal // import "github.com/basgys/dd-trace-go/contrib/database/sql/internal"
 
 import (
 	"net"
 	"net/url"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 // ParseDSN parses various supported DSN types into a map of key/value pairs which can be used as valid tags.

@@ -17,14 +17,14 @@ import (
 	"net/http"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/httpsec/types"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/sharedsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/httpsec/types"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/sharedsec"
+	"github.com/basgys/dd-trace-go/internal/appsec/listener"
+	"github.com/basgys/dd-trace-go/internal/appsec/trace"
+	"github.com/basgys/dd-trace-go/internal/appsec/trace/httptrace"
+	"github.com/basgys/dd-trace-go/internal/log"
 
 	"github.com/DataDog/appsec-internal-go/netip"
 )

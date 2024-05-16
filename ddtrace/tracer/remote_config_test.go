@@ -8,14 +8,14 @@ package tracer
 import (
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
+	"github.com/basgys/dd-trace-go/ddtrace/internal"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/remoteconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
+	"github.com/basgys/dd-trace-go/internal/remoteconfig"
+	"github.com/basgys/dd-trace-go/internal/samplernames"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
+	"github.com/basgys/dd-trace-go/internal/telemetry/telemetrytest"
 
 	"github.com/DataDog/datadog-agent/pkg/remoteconfig/state"
 	"github.com/stretchr/testify/assert"
@@ -294,7 +294,7 @@ func TestOnRemoteConfigUpdate(t *testing.T) {
 				"provenance": "customer",
 				"sample_rate": 1.0,
 				"tags": [{"key": "tag-a", "value_glob": "tv-a??"}]
-			}]}, 
+			}]},
 			"service_target": {"service": "my-service", "env": "my-env"}}`),
 		}
 		applyStatus := tracer.onRemoteConfigUpdate(input)

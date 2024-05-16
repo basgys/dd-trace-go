@@ -8,8 +8,8 @@
 package stacktrace
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/internal"
 
 	"github.com/google/uuid"
 	"github.com/tinylib/msgp/msgp"

@@ -11,7 +11,7 @@ import (
 	"runtime/trace"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
+	"github.com/basgys/dd-trace-go/internal"
 )
 
 var _ driver.Tx = (*tracedTx)(nil)

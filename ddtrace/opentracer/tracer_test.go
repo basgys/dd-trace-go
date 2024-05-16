@@ -9,11 +9,11 @@ import (
 	"context"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/internal"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
+	"github.com/basgys/dd-trace-go/internal/telemetry/telemetrytest"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/assert"

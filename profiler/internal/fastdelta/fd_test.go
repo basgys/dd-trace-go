@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler/internal/pprofutils"
+	"github.com/basgys/dd-trace-go/profiler/internal/pprofutils"
 
 	"github.com/google/pprof/profile"
 	"github.com/richardartoul/molecule"

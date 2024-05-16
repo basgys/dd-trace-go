@@ -13,9 +13,9 @@ import (
 	appsecLog "github.com/DataDog/appsec-internal-go/log"
 	waf "github.com/DataDog/go-libddwaf/v2"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal/appsec/config"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 // Enabled returns true when AppSec is up and running. Meaning that the appsec build tag is enabled, the env var

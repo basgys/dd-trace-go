@@ -8,9 +8,9 @@ package graphqlsec
 import (
 	"context"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/graphqlsec/types"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/trace"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/graphqlsec/types"
+	"github.com/basgys/dd-trace-go/internal/appsec/trace"
 )
 
 // StartResolveOperation starts a new GraphQL Resolve operation, along with the given arguments, and

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	testlib "gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/_testlib"
+	testlib "github.com/basgys/dd-trace-go/internal/appsec/_testlib"
 
 	"github.com/stretchr/testify/require"
 )

@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"os"
 
-	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler"
+	httptrace "github.com/basgys/dd-trace-go/contrib/net/http"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/profiler"
 )
 
 func main() {

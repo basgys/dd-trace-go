@@ -8,8 +8,8 @@ package gin
 import (
 	"net/http"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/httpsec"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/httpsec"
 
 	"github.com/gin-gonic/gin"
 )

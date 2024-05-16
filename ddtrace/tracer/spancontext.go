@@ -15,14 +15,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	ginternal "gopkg.in/DataDog/dd-trace-go.v1/internal"
-	sharedinternal "gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/samplernames"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
+	"github.com/basgys/dd-trace-go/ddtrace"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/internal"
+	ginternal "github.com/basgys/dd-trace-go/internal"
+	sharedinternal "github.com/basgys/dd-trace-go/internal"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/samplernames"
+	"github.com/basgys/dd-trace-go/internal/telemetry"
 )
 
 var _ ddtrace.SpanContext = (*spanContext)(nil)

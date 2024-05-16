@@ -14,10 +14,10 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener/httpsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener/sharedsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/remoteconfig"
+	"github.com/basgys/dd-trace-go/internal/appsec/config"
+	"github.com/basgys/dd-trace-go/internal/appsec/listener/httpsec"
+	"github.com/basgys/dd-trace-go/internal/appsec/listener/sharedsec"
+	"github.com/basgys/dd-trace-go/internal/remoteconfig"
 
 	internal "github.com/DataDog/appsec-internal-go/appsec"
 	rc "github.com/DataDog/datadog-agent/pkg/remoteconfig/state"

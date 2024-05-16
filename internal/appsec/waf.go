@@ -8,10 +8,10 @@ package appsec
 import (
 	"github.com/DataDog/appsec-internal-go/limiter"
 	waf "github.com/DataDog/go-libddwaf/v2"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/config"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/emitter/sharedsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal/appsec/config"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/appsec/emitter/sharedsec"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 type wafHandle struct {

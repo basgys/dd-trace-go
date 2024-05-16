@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/namingschematest"
-	"gopkg.in/DataDog/dd-trace-go.v1/datastreams"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/basgys/dd-trace-go/contrib/internal/namingschematest"
+	"github.com/basgys/dd-trace-go/datastreams"
+	"github.com/basgys/dd-trace-go/ddtrace/ext"
+	"github.com/basgys/dd-trace-go/ddtrace/mocktracer"
+	"github.com/basgys/dd-trace-go/ddtrace/tracer"
 
 	kafka "github.com/segmentio/kafka-go"
 	"github.com/stretchr/testify/assert"

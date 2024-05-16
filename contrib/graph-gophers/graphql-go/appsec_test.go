@@ -13,10 +13,10 @@ import (
 	"path"
 	"testing"
 
+	"github.com/basgys/dd-trace-go/ddtrace/mocktracer"
+	"github.com/basgys/dd-trace-go/internal/appsec"
 	graphql "github.com/graph-gophers/graphql-go"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
 )
 
 func TestAppSec(t *testing.T) {

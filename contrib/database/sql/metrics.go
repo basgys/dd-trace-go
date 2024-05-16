@@ -3,15 +3,15 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package sql // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql"
+package sql // import "github.com/basgys/dd-trace-go/contrib/database/sql"
 
 import (
 	"database/sql"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal"
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 const tracerPrefix = "datadog.tracer."

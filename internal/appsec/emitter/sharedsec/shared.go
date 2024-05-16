@@ -9,9 +9,9 @@ import (
 	"context"
 	"reflect"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/listener"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal/appsec/dyngo"
+	"github.com/basgys/dd-trace-go/internal/appsec/listener"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 type (

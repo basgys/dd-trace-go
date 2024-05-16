@@ -8,8 +8,8 @@ package sql
 import (
 	"testing"
 
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
 )
 
 func (cfg *config) applyTags() {

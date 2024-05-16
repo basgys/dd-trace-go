@@ -14,11 +14,11 @@ import (
 	"runtime"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/osinfo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"github.com/basgys/dd-trace-go/internal/appsec"
+	"github.com/basgys/dd-trace-go/internal/globalconfig"
+	"github.com/basgys/dd-trace-go/internal/log"
+	"github.com/basgys/dd-trace-go/internal/osinfo"
+	"github.com/basgys/dd-trace-go/internal/version"
 )
 
 // startupInfo contains various information about the status of the tracer on startup.

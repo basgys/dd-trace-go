@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/basgys/dd-trace-go/internal/log"
 )
 
 type (
